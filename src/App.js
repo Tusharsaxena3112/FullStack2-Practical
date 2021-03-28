@@ -1,12 +1,10 @@
 import React from "react";
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
+import List from "./components/List";
 
 function App() {
   return (
     <div>
-      <FunctionalComponent />
-      <ClassComponent />
+      <List/>
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+table{
+    margin:auto;
+    font-size: 20px;
+    border-collapse: collapse;
+    width:70%;
+}
+th{
+    background-color: yellow;
+    color:black;
+}
+th,tr,td{
+    border-bottom: 1px solid rgb(204, 199, 199);
+    padding:20px;
+    text-align: center;
+}
+.inputs{
+    margin:20px;
+    padding:20px;
+}
+.inputs input{
+    margin:10px;
+    font-size: 20px;
+}
+.inputs button{
+    color: white;
+    background-color: rgb(27, 77, 243);
+    border:none;
+    outline: none;
+    padding:10px;
+    border-radius: 5px;
+}
